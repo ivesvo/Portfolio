@@ -33,9 +33,9 @@ export default function LandingPage() {
                         </Col>
 
                         <Col>
-                            <div><a href="https://www.behance.net/itsvnat43a2">Behance</a></div>
-                            <div><a href="https://www.linkedin.com/in/ivy-vo-b80b25158/">LinkedIn</a></div>
-                            <div><a href="https://github.com/ivesvo">Github</a></div>
+                            <div><a href="https://www.behance.net/itsvnat43a2" target="_blank">Behance</a></div>
+                            <div><a href="https://www.linkedin.com/in/ivy-vo-b80b25158/"target="_blank" >LinkedIn</a></div>
+                            <div><a href="https://github.com/ivesvo" target="_blank">Github</a></div>
                         </Col>
                         <Col>
                             <Link to="/resume">CV</Link>
