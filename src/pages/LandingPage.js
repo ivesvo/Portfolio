@@ -7,6 +7,7 @@ import EyeService from '../components/EyeService'
 import MovieDB from '../components/MovieDB'
 import ITVIEC from '../components/ITVIEC'
 import {FaArrowCircleUp} from 'react-icons/fa';
+import ScrollArrow from '../components/ScrollArrow'
 
 
 export default function LandingPage() {
@@ -160,7 +161,7 @@ export default function LandingPage() {
                 <Row className="breadcrumbs">
 
 
-                    <Col lg={2} md={2} sm={2} xs={4}>
+                    <Col lg={2} md={4} sm={2} xs={4}>
                         <div>ITVIEC</div>
                         <div>IT Career Website</div>
 
@@ -186,10 +187,12 @@ export default function LandingPage() {
                         </div>
 
                     </Col>
-
+                    <Col xs={1}></Col>
+                    
                     <Col>
-
+                        <ScrollArrow/>
                         <a href="#top">Back to Top <i  href="#top" class="fal fa-arrow-up"></i> </a>
+                        
                         
 
 
