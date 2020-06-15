@@ -14,10 +14,10 @@ function App() {
   return (
     <div className="App">
       <Switch>
-       
+      <Route path="/resume" exact={true} component={Work} />
         <Route path="/" component={LandingPage} />
         <Route path="/landingpage" component={LandingPage} />
-        <Route path="/resume" component={Work} />
+        
         
       </Switch>
         
