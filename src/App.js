@@ -6,7 +6,7 @@ import Work from './pages/Work'
 
 
 import './App.css';
-import { Row, Col } from 'react-bootstrap'
+
 import './fonts/AkkLg_Pro_1.otf'
 import './fonts/AkkBd_Pro_1.otf'
 
@@ -22,10 +22,6 @@ function App() {
       </Switch>
         
       </div>
-      
-      
-
-   
   );
 }
 

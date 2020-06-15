@@ -180,8 +180,6 @@ export default function LandingPage() {
 
                         </div>
 
-
-
                     </Col>
 
                     <Col>
