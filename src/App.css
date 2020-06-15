@@ -1,38 +1,78 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: Akkurat Pro;
+  src: local('Akkurat Pro'), url(./fonts/AkkLg_Pro_1.otf) format('opentype');
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: Akkurat Pro;
+  src: local('Akkurat Pro'), url(./fonts/AkkBd_Pro_1.otf) format('opentype');
+} 
+.footer{
+  
+  font-weight: bold;
+  width: 00vw;
+  line-height: auto;
+  padding: 10px 15px;
+  background-color: none;
+  font-family: Akkurat Pro;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.breadcrumbs{
+  font-size: 0.8rem;
+  padding: 10px 15px;
+  font-size: Akkurat Pro;
+  font-weight: light;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App{
+  color: fuchsia;
+  /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTWHhg9VCdLJKtAMnWGne6lHu8yWvaSrxTOS63P8phf1w0ExUYz&usqp=CAU); */
+  background-size: auto;
+  font-family: Akkurat Pro;
+  padding: 10px 20px;
+  background-color: #f9f9f9;
+  
+
+}
+
+a { color: inherit; } 
+a:hover{
+  color: grey;
+  text-decoration: none;
+}
+
+.middle{
+  height:20vh;
+}
+
+.middle1{
+  height: 10vh;
+}
+
+.eyeservice{
+  /* height: 100vh; */
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  /* background-color:  #f9f9f9 */
 }
 
-.App-link {
-  color: #61dafb;
+.accordion{
+  background-color: #f9f9f9;
+  border:none;
+  cursor: pointer;
+  transition: 0.4s;
+  color: fuchsia;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* .active, .accordion:hover {
+  background-color: #ccc; 
+} */
+
+
+.panel{
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
 }
+
