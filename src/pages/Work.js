@@ -112,13 +112,13 @@ Saigon, Vietnam. Focusing on art direction & designing visual identities for eve
                     <div>SOFTWARE</div>
                     <div style={{paddingBottom:"20px", paddingTop: "20px"}}>
                         <div>Adobe Suite</div>
-                        <div style={{marginLeft: "10px"}}>Ps / Ai / Ae/ Xd</div>
+                        <div style={{marginLeft: "10px"}}>Ps/Ai/Ae/Xd</div>
                         <div>Cinema4D</div>
                         <div>Visual Code Studio</div>
                         <div>Processing</div>
                         <div>Google Suite</div>
                         <div>Microsoft Office</div>
-                        <div style={{marginLeft:"10px"}}>Word / PowerPoint</div>
+                        <div style={{marginLeft:"10px"}}>Wor/PowerPoint</div>
                         <div>Keynote</div>
 
 

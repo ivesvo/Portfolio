@@ -38,7 +38,7 @@ export default function LandingPage() {
                             <div><a href="https://github.com/ivesvo" target="_blank">Github</a></div>
                         </Col>
                         <Col>
-                            <Link to="/resume">CV</Link>
+                            <Link to="/resume">Resume</Link>
                         </Col>
 
 
