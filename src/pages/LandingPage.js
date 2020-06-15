@@ -1,22 +1,24 @@
-import React from 'react'
+import React, {useState} from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ReactDOM from "react-dom";
-
 import { Row, Col, Dropdown, Accordion, Button, Card } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import EyeService from '../components/EyeService'
 import MovieDB from '../components/MovieDB'
 import ITVIEC from '../components/ITVIEC'
+import {FaArrowCircleUp} from 'react-icons/fa';
 
 
 export default function LandingPage() {
-  
+    
     return (
         <>
             <div>
                 <div className="background">
+                    <a name="top"></a>
                     <Row className="breadcrumbs">
                         <Col>
+                           
                             <div>Visual Designer</div>
                             <div>Fullstack Web Development Student</div>
                             {/* <img width="80"src="https://icons.iconarchive.com/icons/dtafalonso/yosemite-flat/512/Folder-icon.png"/>
@@ -27,6 +29,7 @@ export default function LandingPage() {
 
                         </Col>
                         <Col>
+                            
                             <div>Saigon, Vietnam</div>
                             <div>Available for Freelance work</div>
                             <div>ivyvodesign@gmail.com</div>
@@ -34,7 +37,7 @@ export default function LandingPage() {
 
                         <Col>
                             <div><a href="https://www.behance.net/itsvnat43a2" target="_blank">Behance</a></div>
-                            <div><a href="https://www.linkedin.com/in/ivy-vo-b80b25158/"target="_blank" >LinkedIn</a></div>
+                            <div><a href="https://www.linkedin.com/in/ivy-vo-b80b25158/" target="_blank" >LinkedIn</a></div>
                             <div><a href="https://github.com/ivesvo" target="_blank">Github</a></div>
                         </Col>
                         <Col>
@@ -58,7 +61,7 @@ export default function LandingPage() {
                     <EyeService></EyeService>
 
                 </div>
-                <Row style={{paddtingBottom: "20px"}} className="breadcrumbs">
+                <Row style={{ paddtingBottom: "20px" }} className="breadcrumbs">
 
                     <Col lg={2} md={2} sm={2} xs={4}>
                         <div>Eye Service</div>
@@ -71,7 +74,7 @@ export default function LandingPage() {
 
                     </Col>
                     <Col lg={4} md={4} sm={6} xs={6}>
-                       
+
                         <div>
                             <Accordion>
 
@@ -81,13 +84,13 @@ export default function LandingPage() {
 
                                 <Accordion.Collapse eventKey="0">
                                     <div >My favourite project @CoderSchool!  <a href="https://eyeservice.netlify.app/" target="_blank" >Live Demo</a> / <a href="https://github.com/ivesvo/W3-CanvasGame" target="_blank" >Github</a></div>
-                                    
+
                                 </Accordion.Collapse>
 
 
                             </Accordion>
 
-                            
+
 
                         </div>
 
@@ -101,7 +104,7 @@ export default function LandingPage() {
 
 
                 </Row>
-                
+
 
                 <div className="eyeservice">
                     <MovieDB></MovieDB>
@@ -130,13 +133,13 @@ export default function LandingPage() {
                                 </Accordion.Toggle>
 
                                 <Accordion.Collapse eventKey="0">
-                                   <div> <a href="https://mubihaus.netlify.app/" target="_blank" >Live Demo</a> / <a href="https://github.com/ivesvo/MUBIHOUSE-" target="_blank" >Github</a> </div>
+                                    <div> <a href="https://mubihaus.netlify.app/" target="_blank" >Live Demo</a> / <a href="https://github.com/ivesvo/MUBIHOUSE-" target="_blank" >Github</a> </div>
                                 </Accordion.Collapse>
 
 
                             </Accordion>
 
-                            
+
 
                         </div>
 
@@ -172,13 +175,13 @@ export default function LandingPage() {
                                 </Accordion.Toggle>
 
                                 <Accordion.Collapse eventKey="0">
-                                   <div><a href="https://stupefied-boyd-4ac7ab.netlify.app/tps://mubihaus.netlify.app/" target="_blank" >Live Demo</a> / <a href="https://github.com/ivesvo/itviec" target="_blank" >Github</a> </div>
+                                    <div><a href="https://stupefied-boyd-4ac7ab.netlify.app/tps://mubihaus.netlify.app/" target="_blank" >Live Demo</a> / <a href="https://github.com/ivesvo/itviec" target="_blank" >Github</a> </div>
                                 </Accordion.Collapse>
 
 
                             </Accordion>
 
-                            
+
 
                         </div>
 
@@ -186,7 +189,12 @@ export default function LandingPage() {
 
                     <Col>
 
+                        <a href="#top">Back to Top <i  href="#top" class="fal fa-arrow-up"></i> </a>
+                        
+
+
                     </Col>
+
 
 
                 </Row>

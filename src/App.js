@@ -3,7 +3,7 @@ import React from 'react';
 import { Switch, Route, Redirect } from "react-router-dom";
 import LandingPage from './pages/LandingPage'
 import Work from './pages/Work'
-
+import {FaArrowCircleUp} from 'react-icons/fa';
 
 import './App.css';
 
