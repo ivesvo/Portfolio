@@ -71,7 +71,7 @@ export default function LandingPage() {
 
                     </Col>
                     <Col lg={4} md={4} sm={6} xs={6}>
-
+                       
                         <div>
                             <Accordion>
 
@@ -80,7 +80,8 @@ export default function LandingPage() {
                                 </Accordion.Toggle>
 
                                 <Accordion.Collapse eventKey="0">
-                                    <div>This project is dadsjfsdgfhdgdfgdfhgdjfgdfjgdhfgfgd This project is dadsjfsdgfhdgdfgdfhgdjfgdfjgdhfgfgdThis project is dadsjfsdgfhdgdfgdfhgdjfgdfjgdhfgfgd. Try it here</div>
+                                    <div >My favourite project @CoderSchool!  <a href="https://eyeservice.netlify.app/" target="_blank" >Live Demo</a> / <a href="https://github.com/ivesvo/W3-CanvasGame" target="_blank" >Github</a></div>
+                                    
                                 </Accordion.Collapse>
 
 
@@ -100,6 +101,7 @@ export default function LandingPage() {
 
 
                 </Row>
+                
 
                 <div className="eyeservice">
                     <MovieDB></MovieDB>
@@ -128,7 +130,7 @@ export default function LandingPage() {
                                 </Accordion.Toggle>
 
                                 <Accordion.Collapse eventKey="0">
-                                    <Card.Body>This project is dadsjfsdgfhdgdfgdfhgdjfgdfjgdhfgfgd</Card.Body>
+                                   <div> <a href="https://mubihaus.netlify.app/" target="_blank" >Live Demo</a> / <a href="https://github.com/ivesvo/MUBIHOUSE-" target="_blank" >Github</a> </div>
                                 </Accordion.Collapse>
 
 
@@ -170,7 +172,7 @@ export default function LandingPage() {
                                 </Accordion.Toggle>
 
                                 <Accordion.Collapse eventKey="0">
-                                    <Card.Body>This project is dadsjfsdgfhdgdfgdfhgdjfgdfjgdhfgfgd</Card.Body>
+                                   <div><a href="https://stupefied-boyd-4ac7ab.netlify.app/tps://mubihaus.netlify.app/" target="_blank" >Live Demo</a> / <a href="https://github.com/ivesvo/itviec" target="_blank" >Github</a> </div>
                                 </Accordion.Collapse>
 
 
